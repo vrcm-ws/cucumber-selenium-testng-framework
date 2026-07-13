@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
                   plugin = { "pretty",
                              "html:target/cucumber-reports/test_smoke_runner_cucumber.html",
                              "json:target/cucumber-reports/test_smoke_runner_cucumber.json" },
-                  tags = "@SingleData",
+                  tags = "@smoke",
                   monochrome = true,
                   dryRun = false )
 
